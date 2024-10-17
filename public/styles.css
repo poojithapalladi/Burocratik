@@ -1,0 +1,84 @@
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.cta-button {
+    background: #007BFF;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.about,
+.services {
+    padding: 2rem;
+    background: #fff;
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .service-cards {
+        flex-direction: column;
+    }
+}
+
+.service-cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.service-card {
+    flex: 1;
+    background: #eee;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
